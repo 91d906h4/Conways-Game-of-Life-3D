@@ -35,7 +35,6 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, smothAngle, 0f);
         }
 
-
         // Get Camera direction.
         Vector3 forward = Camera.main.transform.forward;
         Vector3 right = Camera.main.transform.right;
